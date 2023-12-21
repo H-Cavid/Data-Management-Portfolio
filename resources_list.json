@@ -1,0 +1,2518 @@
+[
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "3d0ba916-bc51-4bb7-a011-f2c5b35b1175",
+    "id": "003a5a77-0fbb-4792-9094-060837f397af",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-07-24T08:41:50.888314",
+    "metadata_modified": "2023-12-21T22:00:33.867033",
+    "name": "larmmessung-in-der-landeshauptstadt-kiel",
+    "notes": "**Allgemein**\r\nIn diesem Datensatz werden unterschiedliche Stra\u00dfenl\u00e4rmwerte bereitgestellt.\r\n\r\nDie Daten werden im Rahmen des [ODALA-F\u00f6rderprojektes](https://odalaproject.eu/) bereitgestellt.\r\n\r\n**Datenmodell**\r\nDie Daten k\u00f6nnen unterschiedliche Sensortypen und -hersteller umfassen. Um die Daten zu harmonisieren, werden diese in ein einheitliches Datenmodell zusammengefasst. Nicht jeder Sensor misst alle angegebenen Werte. Die Daten sind im Datenmodell \"NoiseLevelObserved\" bereitgestellt.\r\n\r\nhttps://gitlab.com/hopu-smart-cities/fiware/datamodels/-/blob/master/noise/datamodel-ngsi-ld.json\r\n\r\nDieses baut auf dem Smart Data Model \"NoiseLevelObserved\" auf:\r\n\r\nhttps://github.com/smart-data-models/dataModel.Environment/blob/master/NoiseLevelObserved/doc/spec.md\r\n\r\n **Gemessene und berechnete Werte**\r\n\r\n* LA1 (Schallpegel welcher in 1% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA10 (Schallpegel welcher in 10% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA50 (Schallpegel welcher in 50% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA90 (Schallpegel welcher in 90% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LA99 (Schallpegel welcher in 99% der Messzeit \u00fcberschritten wurde - statistisch berechnet)\r\n* LAeq (\u00e4quivalenter Dauerschallpegel)\r\n* LAmax (maximal gemessener Pegel)\r\n* LAmin (minimal gemessener Pegel)",
+    "num_resources": 3,
+    "num_tags": 4,
+    "organization": {
+      "id": "landeshauptstadt-kiel",
+      "name": "landeshauptstadt-kiel",
+      "title": "Landeshauptstadt Kiel",
+      "type": "organization",
+      "description": "Die Stadt Kiel ist die n\u00f6rdlichste Gro\u00dfstadt Deutschlands und die Landeshauptstadt Schleswig-Holsteins. Als kreisfreie Stadt erledigt sie neben den kommunalen Selbstverwaltungsaufgaben auch Aufgaben einer unteren staatlichen Verwaltungsbeh\u00f6rde und erzeugt, erhebt und verarbeitet als Gebietsk\u00f6rperschaft eine Vielzahl von Daten mit lokalem Bezug.",
+      "image_url": "https://www.kiel.de/images/logo-kiel-sailing-city.svg",
+      "created": "2020-01-23T12:45:40.761397",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "landeshauptstadt-kiel",
+    "private": false,
+    "state": "active",
+    "title": "L\u00e4rmmessung in der Landeshauptstadt Kiel (ODALA)",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-05-30T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[10.0327, 54.2508], [10.0327, 54.4314], [10.2186, 54.4314], [10.2186, 54.2508], [10.0327, 54.2508]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-11-17T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-07-26T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11/download/odala_noiselevelobserved_city_of_kiel_latest.json",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/1fb/677/8f-fe1b-4f55-aa53-6a3ba5b03e11",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11/download/odala_noiselevelobserved_city_of_kiel_latest.json",
+          "size": 2822,
+          "mimetype": "application/json",
+          "hash": "bb7b8df63afdb78b6533705a0001fae5337e3fe9",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T23:00:36.371030",
+          "failure_count": 0,
+          "created": "2023-07-24T10:44:17.543288",
+          "updated": "2023-12-21T23:00:36.371030",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-24T08:44:17.028483",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "a761f7d5822b80b60b1ebc63a6221eb8",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11",
+        "last_modified": "2023-12-21T22:00:33.856007",
+        "metadata_modified": "2023-12-21T22:00:33.870187",
+        "mimetype": "application/json",
+        "mimetype_inner": null,
+        "name": "Zuletzt gemessene L\u00e4rmmessung in der Landeshauptstadt Kiel (ODALA; Sensorik) - Datei",
+        "package_id": "003a5a77-0fbb-4792-9094-060837f397af",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T23:00:36.371030",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-07-24T10:44:18.176133",
+          "updated": "2023-12-21T23:00:37.056921"
+        },
+        "resource_type": null,
+        "size": 2822,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/1fb6778f-fe1b-4f55-aa53-6a3ba5b03e11/download/odala_noiselevelobserved_city_of_kiel_latest.json",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/d673602e-84f5-4f66-968d-cc11d9fe0a49/download/odala_noiselevelobserved_historic_data.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/d67/360/2e-84f5-4f66-968d-cc11d9fe0a49",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/d673602e-84f5-4f66-968d-cc11d9fe0a49/download/odala_noiselevelobserved_historic_data.csv",
+          "size": 3727640,
+          "mimetype": "text/csv",
+          "hash": "c7fd2bd138ac127db43cb515a83462eb7d074b92",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T23:00:36.385997",
+          "failure_count": 0,
+          "created": "2023-07-26T17:48:20.759066",
+          "updated": "2023-12-21T23:00:36.385997",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-26T15:48:20.174842",
+        "description": null,
+        "format": "CSV",
+        "hash": "9cffd6a5dbf56e71a9e6cbf0968dbfd2",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "d673602e-84f5-4f66-968d-cc11d9fe0a49",
+        "last_modified": "2023-11-17T15:20:07.327503",
+        "metadata_modified": "2023-12-21T22:00:33.870292",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "Historische L\u00e4rmmessungen in der Landeshauptstadt Kiel (ODALA; Sensorik)",
+        "package_id": "003a5a77-0fbb-4792-9094-060837f397af",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T23:00:36.385997",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-07-26T17:48:21.297573",
+          "updated": "2023-12-21T23:00:37.079127"
+        },
+        "resource_type": null,
+        "size": 3727640,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/003a5a77-0fbb-4792-9094-060837f397af/resource/d673602e-84f5-4f66-968d-cc11d9fe0a49/download/odala_noiselevelobserved_historic_data.csv",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/46/466a2caf-1587-4ee0-803d-0d55e17abe03/noiselevelobserved",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/46/466a2caf-1587-4ee0-803d-0d55e17abe03/noiselevelobserved",
+          "size": 2986,
+          "mimetype": "application/ld+json",
+          "hash": "9c4d222f51444c119aa497f6c4178175df53346a",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T23:00:36.600810",
+          "failure_count": 0,
+          "created": "2023-09-08T10:47:21.449288",
+          "updated": "2023-12-21T23:00:36.600810",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-09-08T08:47:20.007289",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "",
+        "id": "466a2caf-1587-4ee0-803d-0d55e17abe03",
+        "last_modified": null,
+        "metadata_modified": "2023-12-21T22:00:33.870375",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Zuletzt gemessene L\u00e4rmmessung in der Landeshauptstadt Kiel (ODALA; Sensorik) - API",
+        "package_id": "003a5a77-0fbb-4792-9094-060837f397af",
+        "position": 2,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T23:00:36.600810",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-09-08T10:47:21.021332",
+          "updated": "2023-12-21T23:00:37.082863"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "url": "https://scorpio-apisix.staging.odala.kiel.de/noiselevelobserved",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Individualverkehr",
+        "id": "53a33a99-d7bc-460b-8b7c-a39706ad894b",
+        "name": "Individualverkehr",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "L\u00e4rm",
+        "id": "b9f88a7a-78e8-4f1e-a81d-97fb7f5d1cf5",
+        "name": "L\u00e4rm",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Messstellen",
+        "id": "8407b1bd-5667-4f21-b1a6-3f8ed0b5d3da",
+        "name": "Messstellen",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Umwelt",
+        "id": "2a6e73f7-5d59-4f2b-9118-aa780366e5f7",
+        "name": "Umwelt",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "3d0ba916-bc51-4bb7-a011-f2c5b35b1175",
+    "id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-07-24T12:49:22.036871",
+    "metadata_modified": "2023-12-21T22:00:26.906219",
+    "name": "digitale-personenzahlung-in-der-landeshauptstadt-kiel-odala",
+    "notes": "**Allgemein**\r\n\r\nIn diesem Datensatz werden unterschiedliche Werte zur digitalen Personenz\u00e4hlung bereitgestellt. Die Sensoren Messen Verbindungen mit WLAN und Bluetooth Low Energy (BLE) in der N\u00e4he. Die Daten werden DSGVO-konform auf dem Ger\u00e4t erfasst und verarbeitet. Es werden lediglich die aggregierten und anonymisierten Verbindungen als Daten bereitgestellt.\r\n\r\nDie Daten werden im Rahmen des [ODALA-F\u00f6rderprojektes](https://odalaproject.eu/) bereitgestellt.\r\n\r\n**Datenmodell**\r\n\r\nDie Daten k\u00f6nnen unterschiedliche Sensortypen und -hersteller umfassen. Um die Daten zu harmonisieren, werden diese in ein einheitliches Datenmodell zusammengefasst. Nicht jeder Sensor misst alle angegebenen Werte. Die Daten sind im Datenmodell \"CrowdFlowObserved\" bereitgestellt.\r\n\r\nhttps://gitlab.com/hopu-smart-cities/fiware/datamodels/-/blob/master/crowd-flow/datamodel-ngsi-ld.json\r\n\r\nDieses baut auf dem Smart Data Model \"CriowdFlowObserved\" auf:\r\n\r\nhttps://github.com/smart-data-models/dataModel.Transportation/blob/master/CrowdFlowObserved/doc/spec.md\r\n\r\n **Gemessene und berechnete Werte**\r\n\r\n* peopleCountLowerRange (Durchschnitt 1 Minute)\r\n* peopleCountMediumRange (Durchschnitt 5 Minuten)\r\n* peopleCountHighRange (Durchschnitt 10 Minuten)",
+    "num_resources": 3,
+    "num_tags": 2,
+    "organization": {
+      "id": "landeshauptstadt-kiel",
+      "name": "landeshauptstadt-kiel",
+      "title": "Landeshauptstadt Kiel",
+      "type": "organization",
+      "description": "Die Stadt Kiel ist die n\u00f6rdlichste Gro\u00dfstadt Deutschlands und die Landeshauptstadt Schleswig-Holsteins. Als kreisfreie Stadt erledigt sie neben den kommunalen Selbstverwaltungsaufgaben auch Aufgaben einer unteren staatlichen Verwaltungsbeh\u00f6rde und erzeugt, erhebt und verarbeitet als Gebietsk\u00f6rperschaft eine Vielzahl von Daten mit lokalem Bezug.",
+      "image_url": "https://www.kiel.de/images/logo-kiel-sailing-city.svg",
+      "created": "2020-01-23T12:45:40.761397",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "landeshauptstadt-kiel",
+    "private": false,
+    "state": "active",
+    "title": "Digitale Personenz\u00e4hlung in der Landeshauptstadt Kiel (ODALA)",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-05-30T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[10.0327, 54.2508], [10.0327, 54.4314], [10.2186, 54.4314], [10.2186, 54.2508], [10.0327, 54.2508]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-10-26T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-07-26T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Verkehr",
+        "id": "tran",
+        "image_display_url": "",
+        "name": "tran",
+        "title": "Verkehr"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/c8c6dbdb-3995-4d94-8f21-33590a4f7c50/download/odala_crowdflowobserved_city_of_kiel_latest.json",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/c8c/6db/db-3995-4d94-8f21-33590a4f7c50",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/c8c6dbdb-3995-4d94-8f21-33590a4f7c50/download/odala_crowdflowobserved_city_of_kiel_latest.json",
+          "size": 2081,
+          "mimetype": "application/json",
+          "hash": "5c2475472c234d2db3ac88924572109315ded3fe",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T23:00:29.455689",
+          "failure_count": 0,
+          "created": "2023-07-24T14:49:49.102435",
+          "updated": "2023-12-21T23:00:29.455689",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-24T12:49:48.612284",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "7d885a928b881d9123a373a53ef80c97",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "c8c6dbdb-3995-4d94-8f21-33590a4f7c50",
+        "last_modified": "2023-12-21T22:00:26.896306",
+        "metadata_modified": "2023-12-21T22:00:26.909513",
+        "mimetype": "application/json",
+        "mimetype_inner": null,
+        "name": "Zuletzt gemessene Werte digitaler Personenz\u00e4hlung in der Landeshauptstadt Kiel (ODALA; Sensorik) - Datei",
+        "package_id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T23:00:29.455689",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-07-24T14:49:49.877678",
+          "updated": "2023-12-21T23:00:30.231011"
+        },
+        "resource_type": null,
+        "size": 2081,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/c8c6dbdb-3995-4d94-8f21-33590a4f7c50/download/odala_crowdflowobserved_city_of_kiel_latest.json",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/d8394bf8-2ad2-447c-bf74-403bb0b543f9/download/odala_crowdflowobserved_historic_data.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/d83/94b/f8-2ad2-447c-bf74-403bb0b543f9",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/d8394bf8-2ad2-447c-bf74-403bb0b543f9/download/odala_crowdflowobserved_historic_data.csv",
+          "size": 1864268,
+          "mimetype": "text/csv",
+          "hash": "b5697b34cf1b549c60ed86763326f56c3879674a",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T23:00:29.472994",
+          "failure_count": 0,
+          "created": "2023-07-31T13:59:38.653340",
+          "updated": "2023-12-21T23:00:29.472994",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-07-31T11:59:38.017957",
+        "description": null,
+        "format": "CSV",
+        "hash": "882c941de423b51bffc0c2bed62ffb6b",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "d8394bf8-2ad2-447c-bf74-403bb0b543f9",
+        "last_modified": "2023-10-26T08:01:04.670518",
+        "metadata_modified": "2023-12-21T22:00:26.909614",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "Historische digitale Personenz\u00e4hlung in der Landeshauptstadt Kiel (ODALA; Sensorik)",
+        "package_id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T23:00:29.472994",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-07-31T13:59:39.147052",
+          "updated": "2023-12-21T23:00:30.253420"
+        },
+        "resource_type": null,
+        "size": 1864268,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/1afa7e98-902d-40eb-ab09-9e636371abcc/resource/d8394bf8-2ad2-447c-bf74-403bb0b543f9/download/odala_crowdflowobserved_historic_data.csv",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/46/46725749-3cd6-43ac-9845-701d0fb05f6f/crowdflowobserved",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/46/46725749-3cd6-43ac-9845-701d0fb05f6f/crowdflowobserved",
+          "size": 2245,
+          "mimetype": "application/ld+json",
+          "hash": "d0f0dfb3c274a5e3da0a0de2381d738b97568904",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T23:00:29.727216",
+          "failure_count": 0,
+          "created": "2023-09-08T10:52:46.843670",
+          "updated": "2023-12-21T23:00:29.727216",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-09-08T08:52:43.444868",
+        "description": null,
+        "format": "JSON_LD",
+        "hash": "",
+        "id": "46725749-3cd6-43ac-9845-701d0fb05f6f",
+        "last_modified": null,
+        "metadata_modified": "2023-12-21T22:00:26.909691",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Letzte Publikumsstrommessung (ODALA; Sensoren) - API",
+        "package_id": "1afa7e98-902d-40eb-ab09-9e636371abcc",
+        "position": 2,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T23:00:29.727216",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2023-09-08T10:52:44.607976",
+          "updated": "2023-12-21T23:00:30.256420"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "url": "https://scorpio-apisix.staging.odala.kiel.de/crowdflowobserved",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Individualverkehr",
+        "id": "53a33a99-d7bc-460b-8b7c-a39706ad894b",
+        "name": "Individualverkehr",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Messstellen",
+        "id": "8407b1bd-5667-4f21-b1a6-3f8ed0b5d3da",
+        "name": "Messstellen",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "2e7295f1-4ca5-4379-bc24-b9ab57d1e6fb",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+    "license_title": "Datenlizenz Deutschland Namensnennung 2.0",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-11-01T04:55:07.728675",
+    "metadata_modified": "2023-12-21T12:53:33.732118",
+    "name": "01001_bp_schwarzental_289_urschrift",
+    "notes": "Der Bebauungsplan (B-Plan) 01001_BP_Schwarzental_289_Urschrift wurde digital aufbereitet. Er bildet nach Satzungsbeschluss die Festsetzungen f\u00fcr die st\u00e4dtebauliche Ordnung ab und stellt Teile der verbindlichen Bauleitplanung der Gebietsk\u00f6rperschaft Kreisfreie Stadt Flensburg dar. Das amtliche Dokument mit den rechtsverbindlichen Festsetzungen ist bei der zust\u00e4ndigen Stelle hinterlegt.",
+    "num_resources": 2,
+    "num_tags": 7,
+    "organization": {
+      "id": "3082a574-f0bf-42e2-93ce-e8c173c87e0d",
+      "name": "flensburg",
+      "title": "Stadt Flensburg",
+      "type": "organization",
+      "description": "Die kreisfreie Stadt Flensburg liegt am Ende der Flensburger F\u00f6rde und in unmittelbarer N\u00e4he zu D\u00e4nemark. Sie ist das Oberzentrum f\u00fcr das n\u00f6rdliche Schleswig-Holstein und auch f\u00fcr das s\u00fcdliche D\u00e4nemark von gro\u00dfer Bedeutung.",
+      "image_url": "2023-09-01-081221.314314Logo-Stadt-Flensburg.png",
+      "created": "2023-08-29T14:10:26.180117",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "3082a574-f0bf-42e2-93ce-e8c173c87e0d",
+    "private": false,
+    "state": "active",
+    "title": "01001_BP_Schwarzental_289_Urschrift",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "gove,regi"
+      },
+      {
+        "key": "is_replaced_by",
+        "value": ""
+      },
+      {
+        "key": "issued",
+        "value": "2023-10-16T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "Stadt Flensburg"
+      },
+      {
+        "key": "reference",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[9.418568861115546, 54.79898963227015], [9.425620470787003, 54.79898963227015], [9.425620470787003, 54.79619251926099], [9.418568861115546, 54.79619251926099], [9.418568861115546, 54.79898963227015]]]}"
+      },
+      {
+        "key": "spatial_uri",
+        "value": ""
+      },
+      {
+        "key": "temporal_end",
+        "value": ""
+      },
+      {
+        "key": "temporal_start",
+        "value": "2017-12-09T00:00:00"
+      },
+      {
+        "key": "version_notes",
+        "value": ""
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Regierung und \u00f6ffentlicher Sektor",
+        "id": "gove",
+        "image_display_url": "",
+        "name": "gove",
+        "title": "Regierung und \u00f6ffentlicher Sektor"
+      },
+      {
+        "description": "",
+        "display_name": "Regionen und St\u00e4dte",
+        "id": "regi",
+        "image_display_url": "",
+        "name": "regi",
+        "title": "Regionen und St\u00e4dte"
+      }
+    ],
+    "resources": [
+      {
+        "access_url": "https://sh.xplanungsplattform.de/xplan-wfs/services/wfs52?request=GetFeature&service=WFS&version=2.0.0&resolvedepth=*&StoredQuery_ID=urn:ogc:def:query:OGC-WFS::PlanName&planName=Schwarzental",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/0e/0eb75ffb-13e4-455f-92b0-fac78652f9bc/wfs52",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/0e/0eb75ffb-13e4-455f-92b0-fac78652f9bc/wfs52",
+          "size": 318445,
+          "mimetype": "application/gml+xml; version=3.2",
+          "hash": "695b861b04a5a7b40ec18f0b676aeea80fbaa610",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T13:53:37.195294",
+          "failure_count": 0,
+          "created": "2023-11-01T06:47:52.495923",
+          "updated": "2023-12-21T13:53:37.195294",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-11-01T04:55:07.730055",
+        "description": null,
+        "distribution_ref": "https://sh.xplanungsplattform.de/xplan-wfs/services/wfs52?request=GetFeature&service=WFS&version=2.0.0&resolvedepth=*&StoredQuery_ID=urn:ogc:def:query:OGC-WFS::PlanName&planName=Schwarzental",
+        "download_url": "https://sh.xplanungsplattform.de/xplan-wfs/services/wfs52?request=GetFeature&service=WFS&version=2.0.0&resolvedepth=*&StoredQuery_ID=urn:ogc:def:query:OGC-WFS::PlanName&planName=Schwarzental",
+        "format": "GML",
+        "hash": "",
+        "id": "0eb75ffb-13e4-455f-92b0-fac78652f9bc",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+        "licenseAttributionByText": "Stadt Flensburg",
+        "metadata_modified": "2023-11-01T04:55:07.720928",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": null,
+        "package_id": "2e7295f1-4ca5-4379-bc24-b9ab57d1e6fb",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T13:53:37.195294",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"WFS\" which receives openness score: 3.",
+          "format": "WFS",
+          "created": "2023-11-01T06:47:54.142244",
+          "updated": "2023-12-21T13:53:38.785505"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://sh.xplanungsplattform.de/xplan-wfs/services/wfs52?request=GetFeature&service=WFS&version=2.0.0&resolvedepth=*&StoredQuery_ID=urn:ogc:def:query:OGC-WFS::PlanName&planName=Schwarzental",
+        "url": "https://sh.xplanungsplattform.de/xplan-wfs/services/wfs52?request=GetFeature&service=WFS&version=2.0.0&resolvedepth=*&StoredQuery_ID=urn:ogc:def:query:OGC-WFS::PlanName&planName=Schwarzental",
+        "url_type": null
+      },
+      {
+        "access_url": "https://sh.xplanungsplattform.de/xplan-wms/services/planwerkwms/planname/Schwarzental?request=GetCapabilities&service=WMS&version=1.3.0",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/a5/a55fdc9b-729b-4916-91e9-c03f03198df6/Schwarzental",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/a5/a55fdc9b-729b-4916-91e9-c03f03198df6/Schwarzental",
+          "size": 950004,
+          "mimetype": "text/xml",
+          "hash": "d485f76e625f722e69699f1d6ca46f86914265fa",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T13:53:38.302934",
+          "failure_count": 0,
+          "created": "2023-11-01T06:47:53.522050",
+          "updated": "2023-12-21T13:53:38.302934",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-11-01T04:55:07.730058",
+        "description": null,
+        "distribution_ref": "https://sh.xplanungsplattform.de/xplan-wms/services/planwerkwms/planname/Schwarzental?request=GetCapabilities&service=WMS&version=1.3.0",
+        "download_url": "https://sh.xplanungsplattform.de/xplan-wms/services/planwerkwms/planname/Schwarzental?request=GetCapabilities&service=WMS&version=1.3.0",
+        "format": "WMS_SRVC",
+        "hash": "",
+        "id": "a55fdc9b-729b-4916-91e9-c03f03198df6",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+        "licenseAttributionByText": "Stadt Flensburg",
+        "metadata_modified": "2023-11-01T04:55:07.721038",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "modified": "2023-10-16",
+        "name": null,
+        "package_id": "2e7295f1-4ca5-4379-bc24-b9ab57d1e6fb",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T13:53:38.302934",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"WMS\" which receives openness score: 3.",
+          "format": "WMS",
+          "created": "2023-11-01T06:47:54.153929",
+          "updated": "2023-12-21T13:53:38.795471"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://sh.xplanungsplattform.de/xplan-wms/services/planwerkwms/planname/Schwarzental?request=GetCapabilities&service=WMS&version=1.3.0",
+        "url": "https://sh.xplanungsplattform.de/xplan-wms/services/planwerkwms/planname/Schwarzental?request=GetCapabilities&service=WMS&version=1.3.0",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Bauleitplan",
+        "id": "62b6ebb2-4c9a-4261-960b-978f16ed4cd1",
+        "name": "Bauleitplan",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Bauleitplanung",
+        "id": "27c27009-ecf3-40fc-98f0-afae0ed97017",
+        "name": "Bauleitplanung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Raumplanung",
+        "id": "d625dd74-de18-43e9-acd1-66501a94e0cd",
+        "name": "Raumplanung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Schwarzental",
+        "id": "d8d1c950-cbc9-4e83-908c-6a12dc83da44",
+        "name": "Schwarzental",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "XPlanung",
+        "id": "54cf9856-fcdf-4dd5-bdcc-d75ec3174c6d",
+        "name": "XPlanung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "opendata",
+        "id": "2f8dcc54-f219-400e-bd83-c0603f275037",
+        "name": "opendata",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "\u00d6ffentliche Verwaltung",
+        "id": "6d6730bd-431e-42e4-b242-b11e68463c9d",
+        "name": "\u00d6ffentliche Verwaltung",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein",
+    "author_email": "info@statistik-nord.de",
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "StaNord_CMS:65364",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+    "license_title": "Datenlizenz Deutschland Namensnennung 2.0",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-21T10:01:04.382374",
+    "metadata_modified": "2023-12-21T10:01:04.382379",
+    "name": "das-baugewerbe-in-schleswig-holstein-september-2023",
+    "notes": "Das Baugewerbe in Schleswig-Holstein September 2023",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+      "id": "statistikamt-nord",
+      "name": "statistikamt-nord",
+      "title": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein A.\u00f6.R. (Statistikamt Nord)",
+      "type": "organization",
+      "description": "Das Statistische Amt f\u00fcr Hamburg und Schleswig-Holstein \u2013 das Statistikamt Nord \u2013 erhebt und ver\u00f6ffentlicht als Teil der amtlichen Statistik in Deutschland statistische Informationen zu allen gesellschaftlichen Themen f\u00fcr die Bundesl\u00e4nder Hamburg und Schleswig-Holstein. Als Anstalt des \u00f6ffentlichen Rechts f\u00fchrt es alle durch Bundes- und EU- Gesetze angeordneten Statistiken im Auftrag der Tr\u00e4gerl\u00e4nder Hamburg und Schleswig-Holstein f\u00fcr die beiden Bundesl\u00e4nder durch, bereitet die Daten auf und interpretiert die Ergebnisse. Die objektiv und unabh\u00e4ngig erstellten Statistiken werden Verwaltung, Politik, Medien sowie B\u00fcrgerinnen und B\u00fcrgern gleicherma\u00dfen zug\u00e4nglich gemacht. Dar\u00fcber hinaus bietet das Amt Dienstleistungen im Bereich Datenerhebung, -aufbereitung und -analyse nach individuellem Kundenwunsch an. Das Statistikamt Nord ist hervorgegangen aus den vormaligen Statistischen Landes\u00e4mtern Hamburg und Schleswig-Holstein. Seit 2004 firmiert es als l\u00e4nder\u00fcbergreifende Anstalt an den Standorten Hamburg und Kiel.",
+      "image_url": "https://www.statistik-nord.de/static/img/logo-text.svg",
+      "created": "2020-01-23T12:45:40.921925",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "statistikamt-nord",
+    "private": false,
+    "state": "active",
+    "title": "Das Baugewerbe in Schleswig-Holstein September 2023",
+    "type": "dataset",
+    "url": "http://www.statistik-nord.de",
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-12-21T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein - Anstalt des \u00f6ffentlichen Rechts - (Statistikamt Nord)"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.869, 53.36], [7.869, 55.0583], [11.3126, 55.0583], [11.3126, 53.36], [7.869, 53.36]]]}"
+      },
+      {
+        "key": "spatial_text",
+        "value": "Bundesland Schleswig-Holstein"
+      },
+      {
+        "key": "spatial_uri",
+        "value": "http://dcat-ap.de/def/politicalGeocoding/stateKey/01"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-09-30T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-09-01T00:00:00"
+      },
+      {
+        "key": "harvest_object_id",
+        "value": "bfb1b4f7-7799-4888-b932-2afd02bfa736"
+      },
+      {
+        "key": "harvest_source_id",
+        "value": "169986ba-2493-4b42-9258-c17a58970fbb"
+      },
+      {
+        "key": "harvest_source_title",
+        "value": "Statistikamt Nord \u23f2"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Wirtschaft und Finanzen",
+        "id": "econ",
+        "image_display_url": "",
+        "name": "econ",
+        "title": "Wirtschaft und Finanzen"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/ad/ad37bcc2-bed6-4496-864d-b38701129550/EII1_EIII1_m2309_SH.xlsx",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/ad/ad37bcc2-bed6-4496-864d-b38701129550/EII1_EIII1_m2309_SH.xlsx",
+          "size": 247591,
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "hash": "29304f5047d0268af3c9a073d6d59e763bae2342",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T11:01:26.616305",
+          "failure_count": 0,
+          "created": "2023-12-21T11:01:20.539952",
+          "updated": "2023-12-21T11:01:26.616305",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-21T10:01:04.386566",
+        "description": null,
+        "format": "XLSX",
+        "hash": "",
+        "id": "ad37bcc2-bed6-4496-864d-b38701129550",
+        "last_modified": null,
+        "metadata_modified": "2023-12-21T10:01:04.379371",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Das Baugewerbe in Schleswig-Holstein September 2023",
+        "package_id": "StaNord_CMS:65364",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T11:01:26.616305",
+          "openness_score": 2,
+          "openness_score_reason": "Content of file appeared to be format \"XLSX\" which receives openness score: 2.",
+          "format": "XLSX",
+          "created": "2023-12-21T11:01:23.336981",
+          "updated": "2023-12-21T11:01:29.512551"
+        },
+        "resource_type": null,
+        "size": 247591,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_S/EII1_EIII1_m2309_SH.xlsx",
+        "url_type": null
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/ab/ab89e809-419a-43b2-834c-004ce5c7b088/EII1_EIII1_m2309_SH.pdf",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/ab/ab89e809-419a-43b2-834c-004ce5c7b088/EII1_EIII1_m2309_SH.pdf",
+          "size": 985841,
+          "mimetype": "application/pdf",
+          "hash": "eba50d053850b0caade60ebaa03e12a94a132991",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T11:01:28.931882",
+          "failure_count": 0,
+          "created": "2023-12-21T11:01:22.834868",
+          "updated": "2023-12-21T11:01:28.931882",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-21T10:01:04.386569",
+        "description": null,
+        "format": "PDF",
+        "hash": "",
+        "id": "ab89e809-419a-43b2-834c-004ce5c7b088",
+        "last_modified": null,
+        "metadata_modified": "2023-12-21T10:01:04.379476",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Das Baugewerbe in Schleswig-Holstein September 2023",
+        "package_id": "StaNord_CMS:65364",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T11:01:28.931882",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"PDF\" which receives openness score: 1.",
+          "format": "PDF",
+          "created": "2023-12-21T11:01:23.343303",
+          "updated": "2023-12-21T11:01:29.519643"
+        },
+        "resource_type": null,
+        "size": 985841,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/E_II_1_E_III_1_m_S/EII1_EIII1_m2309_SH.pdf",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Baugewerbe",
+        "id": "d47d749f-aa77-4206-85c3-140c91f6cd5d",
+        "name": "Baugewerbe",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Baugewerbe in Schleswig-Holstein monatlich",
+        "id": "d93b7e04-6484-4427-9f62-8fdce297f721",
+        "name": "Baugewerbe in Schleswig-Holstein monatlich",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein",
+    "author_email": "info@statistik-nord.de",
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "StaNord_CMS:65347",
+    "isopen": true,
+    "license_id": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+    "license_title": "Datenlizenz Deutschland Namensnennung 2.0",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-21T10:01:03.397686",
+    "metadata_modified": "2023-12-21T10:01:03.397690",
+    "name": "beherbergung-im-reiseverkehr-in-schleswig-holstein-oktober-2023",
+    "notes": "Beherbergung im Reiseverkehr in Schleswig-Holstein Oktober 2023 - \u2013 Vorl\u00e4ufige Ergebnisse \u2013",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+      "id": "statistikamt-nord",
+      "name": "statistikamt-nord",
+      "title": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein A.\u00f6.R. (Statistikamt Nord)",
+      "type": "organization",
+      "description": "Das Statistische Amt f\u00fcr Hamburg und Schleswig-Holstein \u2013 das Statistikamt Nord \u2013 erhebt und ver\u00f6ffentlicht als Teil der amtlichen Statistik in Deutschland statistische Informationen zu allen gesellschaftlichen Themen f\u00fcr die Bundesl\u00e4nder Hamburg und Schleswig-Holstein. Als Anstalt des \u00f6ffentlichen Rechts f\u00fchrt es alle durch Bundes- und EU- Gesetze angeordneten Statistiken im Auftrag der Tr\u00e4gerl\u00e4nder Hamburg und Schleswig-Holstein f\u00fcr die beiden Bundesl\u00e4nder durch, bereitet die Daten auf und interpretiert die Ergebnisse. Die objektiv und unabh\u00e4ngig erstellten Statistiken werden Verwaltung, Politik, Medien sowie B\u00fcrgerinnen und B\u00fcrgern gleicherma\u00dfen zug\u00e4nglich gemacht. Dar\u00fcber hinaus bietet das Amt Dienstleistungen im Bereich Datenerhebung, -aufbereitung und -analyse nach individuellem Kundenwunsch an. Das Statistikamt Nord ist hervorgegangen aus den vormaligen Statistischen Landes\u00e4mtern Hamburg und Schleswig-Holstein. Seit 2004 firmiert es als l\u00e4nder\u00fcbergreifende Anstalt an den Standorten Hamburg und Kiel.",
+      "image_url": "https://www.statistik-nord.de/static/img/logo-text.svg",
+      "created": "2020-01-23T12:45:40.921925",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "statistikamt-nord",
+    "private": false,
+    "state": "active",
+    "title": "Beherbergung im Reiseverkehr in Schleswig-Holstein Oktober 2023",
+    "type": "dataset",
+    "url": "http://www.statistik-nord.de",
+    "version": null,
+    "extras": [
+      {
+        "key": "issued",
+        "value": "2023-12-21T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "Statistisches Amt f\u00fcr Hamburg und Schleswig-Holstein - Anstalt des \u00f6ffentlichen Rechts - (Statistikamt Nord)"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.869, 53.36], [7.869, 55.0583], [11.3126, 55.0583], [11.3126, 53.36], [7.869, 53.36]]]}"
+      },
+      {
+        "key": "spatial_text",
+        "value": "Bundesland Schleswig-Holstein"
+      },
+      {
+        "key": "spatial_uri",
+        "value": "http://dcat-ap.de/def/politicalGeocoding/stateKey/01"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-10-31T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-10-01T00:00:00"
+      },
+      {
+        "key": "harvest_object_id",
+        "value": "6a4782f4-40f6-46cc-8c86-4c6b4e32374b"
+      },
+      {
+        "key": "harvest_source_id",
+        "value": "169986ba-2493-4b42-9258-c17a58970fbb"
+      },
+      {
+        "key": "harvest_source_title",
+        "value": "Statistikamt Nord \u23f2"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Wirtschaft und Finanzen",
+        "id": "econ",
+        "image_display_url": "",
+        "name": "econ",
+        "title": "Wirtschaft und Finanzen"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/0f/0fb71d1f-4175-45c9-bf97-6a725b28190c/G_IV_1-m_23-10_SH.xlsx",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/0f/0fb71d1f-4175-45c9-bf97-6a725b28190c/G_IV_1-m_23-10_SH.xlsx",
+          "size": 245417,
+          "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "hash": "6e145cc168d3273fb6869b17682e6857abd2ff29",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T11:01:13.850751",
+          "failure_count": 0,
+          "created": "2023-12-21T11:01:07.280152",
+          "updated": "2023-12-21T11:01:13.850751",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-21T10:01:03.406521",
+        "description": null,
+        "format": "XLSX",
+        "hash": "",
+        "id": "0fb71d1f-4175-45c9-bf97-6a725b28190c",
+        "last_modified": null,
+        "metadata_modified": "2023-12-21T10:01:03.394466",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Beherbergung im Reiseverkehr in Schleswig-Holstein Oktober 2023 - \u2013 Vorl\u00e4ufige Ergebnisse \u2013",
+        "package_id": "StaNord_CMS:65347",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T11:01:13.850751",
+          "openness_score": 2,
+          "openness_score_reason": "Content of file appeared to be format \"XLSX\" which receives openness score: 2.",
+          "format": "XLSX",
+          "created": "2023-12-21T11:01:10.639633",
+          "updated": "2023-12-21T11:01:17.441002"
+        },
+        "resource_type": null,
+        "size": 245417,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/G_IV_1_m_S/G_IV_1-m_23-10_SH.xlsx",
+        "url_type": null
+      },
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/2d/2dd4b03c-5881-41b4-8cc0-8921ff6acf13/G_IV_1-m_23-10_SH.pdf",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/2d/2dd4b03c-5881-41b4-8cc0-8921ff6acf13/G_IV_1-m_23-10_SH.pdf",
+          "size": 1404376,
+          "mimetype": "application/pdf",
+          "hash": "b949c761cf3bdd81a1de6c7fccd8f1379991f883",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T11:01:16.843901",
+          "failure_count": 0,
+          "created": "2023-12-21T11:01:10.154646",
+          "updated": "2023-12-21T11:01:16.843901",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-21T10:01:03.406523",
+        "description": null,
+        "format": "PDF",
+        "hash": "",
+        "id": "2dd4b03c-5881-41b4-8cc0-8921ff6acf13",
+        "last_modified": null,
+        "metadata_modified": "2023-12-21T10:01:03.394581",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "name": "Beherbergung im Reiseverkehr in Schleswig-Holstein Oktober 2023 - \u2013 Vorl\u00e4ufige Ergebnisse \u2013",
+        "package_id": "StaNord_CMS:65347",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T11:01:16.843901",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"PDF\" which receives openness score: 1.",
+          "format": "PDF",
+          "created": "2023-12-21T11:01:10.644814",
+          "updated": "2023-12-21T11:01:17.448231"
+        },
+        "resource_type": null,
+        "size": 1404376,
+        "state": "active",
+        "url": "https://www.statistik-nord.de/fileadmin/Dokumente/Statistische_Berichte/industrie__handel_und_dienstl/G_IV_1_m_S/G_IV_1-m_23-10_SH.pdf",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Beherbergung im Reiseverkehr in Schleswig-Holstein",
+        "id": "5e3067f8-b039-4d35-b45a-780f851b49fc",
+        "name": "Beherbergung im Reiseverkehr in Schleswig-Holstein",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Tourismus",
+        "id": "824ca7c9-6da2-4e71-99d1-0a98a5f008a4",
+        "name": "Tourismus",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "d2625e54-f9f6-4ae4-99b2-e4a99ea78b11",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-by/4.0",
+    "license_title": "Creative Commons Namensnennung \u2013 4.0 International (CC BY 4.0)",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2020-06-29T04:51:31.738900",
+    "metadata_modified": "2023-12-21T06:20:36.705185",
+    "name": "kommunale-wappenrolle-wappen",
+    "notes": "Wappen in der [Kommunalen Wappenrolle Schleswig-Holstein](https://www.schleswig-holstein.de/DE/Landesregierung/LASH/Benutzung/Wappenlandschaft/_documents/wappenlandschaft.html)\r\n\r\nEin Eintrag umfasst folgende Informationen:\r\n\r\n- `municipalityName` - Name der Kommune\r\n- `municipality` - DCAT-AP.de konformer URI, der die Kommune eindeutig kennzeichnet\r\n- `figure` - abgebildete Symbole\r\n- `acceptance` - Datum der Wappengenehmigung, -annahme\r\n- `img` - Verweis auf eine grafische Darstellung des Wappens\r\n- `description` - Beschreibung\r\n- `historicalJustification` - historische Begr\u00fcndung\r\n - `author` - Entwurfsautor*in\r\n- `cancellation`- Datum der L\u00f6schung\r\n- `cancellationReason` - Grund f\u00fcr die L\u00f6schung\r\n\r\n**Bitte beachten Sie: Die Lizenz gilt nur f\u00fcr die hier zum Download angebotenen Textinhalte der Wappenrolle, jedoch nicht f\u00fcr die in den Daten verlinkten Abbildungen der Wappen.**\r\n",
+    "num_resources": 2,
+    "num_tags": 2,
+    "organization": {
+      "id": "d420e0a2-0bbd-435b-b334-2ec5fe861f7b",
+      "name": "landesarchiv",
+      "title": "Landesarchiv",
+      "type": "organization",
+      "description": "Das Landesarchiv Schleswig-Holstein ist eine Landesoberbeh\u00f6rde, die dem Gesch\u00e4ftsbereich des Ministeriums f\u00fcr Bildung, Wissenschaft und Kultur zugeordnet ist. Als einziges Staatsarchiv des n\u00f6rdlichsten Bundeslandes ist es f\u00fcr die \u00dcberlieferung des Landtags, der schleswig-holsteinischen Landesverwaltung und -justiz zust\u00e4ndig. Seinen Sitz hat es im Prinzenpalais in Schleswig.",
+      "image_url": "https://opendata.zitsh.de/images/Dachmarke.png",
+      "created": "2020-06-29T06:50:12.362018",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "d420e0a2-0bbd-435b-b334-2ec5fe861f7b",
+    "private": false,
+    "state": "active",
+    "title": "Kommunale Wappenrolle - Wappen",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "educ,regi"
+      },
+      {
+        "key": "issued",
+        "value": "2020-06-19T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "Landesarchiv Schleswig-Holstein"
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-21T07:20:55.276605"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.869, 53.36], [7.869, 55.0583], [11.3126, 55.0583], [11.3126, 53.36], [7.869, 53.36]]]}"
+      },
+      {
+        "key": "spatial_text",
+        "value": "Bundesland Schleswig-Holstein"
+      },
+      {
+        "key": "spatial_uri",
+        "value": "http://dcat-ap.de/def/politicalGeocoding/stateKey/01"
+      },
+      {
+        "key": "temporal_end",
+        "value": ""
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-12-21T07:20:55.276678"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Bildung, Kultur und Sport",
+        "id": "educ",
+        "image_display_url": "",
+        "name": "educ",
+        "title": "Bildung, Kultur und Sport"
+      },
+      {
+        "description": "",
+        "display_name": "Regionen und St\u00e4dte",
+        "id": "regi",
+        "image_display_url": "",
+        "name": "regi",
+        "title": "Regionen und St\u00e4dte"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": "2023-05-08T09:08:53.395702",
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/d2625e54-f9f6-4ae4-99b2-e4a99ea78b11/resource/fdbe8aa7-15f6-4fa6-84bc-32ae76c4f58a/download/wappen.json",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/fdb/e8a/a7-15f6-4fa6-84bc-32ae76c4f58a",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/d2625e54-f9f6-4ae4-99b2-e4a99ea78b11/resource/fdbe8aa7-15f6-4fa6-84bc-32ae76c4f58a/download/wappen.json",
+          "size": 1779594,
+          "mimetype": "application/json",
+          "hash": "f81307705c930eac985a0eae47ce6ad000307059",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:58:23.292479",
+          "failure_count": 0,
+          "created": "2022-01-28T08:21:42.523424",
+          "updated": "2023-12-21T07:58:23.292479",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2022-01-28T07:21:40.310746",
+        "description": "",
+        "format": "JSON",
+        "hash": "b4a453183237b70f0304383f2f74fb15",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "fdbe8aa7-15f6-4fa6-84bc-32ae76c4f58a",
+        "last_modified": "2022-01-28T07:21:40.179388",
+        "metadata_modified": "2023-12-21T06:20:36.708118",
+        "mimetype": "application/json",
+        "mimetype_inner": null,
+        "name": "wappen.json",
+        "package_id": "d2625e54-f9f6-4ae4-99b2-e4a99ea78b11",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:58:23.292479",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"JSON\" which receives openness score: 3.",
+          "format": "JSON",
+          "created": "2022-01-28T08:21:43.633181",
+          "updated": "2023-12-21T07:58:23.843571"
+        },
+        "resource_type": null,
+        "size": 1779594,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/d2625e54-f9f6-4ae4-99b2-e4a99ea78b11/resource/fdbe8aa7-15f6-4fa6-84bc-32ae76c4f58a/download/wappen.json",
+        "url_type": "upload"
+      },
+      {
+        "archiver": {
+          "resource_timestamp": "2023-05-08T09:08:53.395702",
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/d2625e54-f9f6-4ae4-99b2-e4a99ea78b11/resource/a719af6a-12b6-4a05-ab73-8793f1b62c43/download/wappen.rdf",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/a71/9af/6a-12b6-4a05-ab73-8793f1b62c43",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/d2625e54-f9f6-4ae4-99b2-e4a99ea78b11/resource/a719af6a-12b6-4a05-ab73-8793f1b62c43/download/wappen.rdf",
+          "size": 2139040,
+          "mimetype": "application/rdf+xml",
+          "hash": "d1513cd3cdb25d5d0edfffaf16ef1b0903ca8fc2",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:58:23.307494",
+          "failure_count": 0,
+          "created": "2022-01-28T08:21:45.523660",
+          "updated": "2023-12-21T07:58:23.307494",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2022-01-28T07:21:41.871872",
+        "description": "",
+        "format": "RDF",
+        "hash": "18d28f442386bc02b168928fe851df32",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "a719af6a-12b6-4a05-ab73-8793f1b62c43",
+        "last_modified": "2022-01-28T07:21:41.762557",
+        "metadata_modified": "2023-12-21T06:20:36.708707",
+        "mimetype": "application/octet-stream",
+        "mimetype_inner": null,
+        "name": "wappen.rdf",
+        "package_id": "d2625e54-f9f6-4ae4-99b2-e4a99ea78b11",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:58:23.307494",
+          "openness_score": 5,
+          "openness_score_reason": "Content of file appeared to be format \"RDF\" which receives openness score: 5.",
+          "format": "RDF",
+          "created": "2022-01-28T08:21:43.650139",
+          "updated": "2023-12-21T07:58:23.821703"
+        },
+        "resource_type": null,
+        "size": 2139040,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/d2625e54-f9f6-4ae4-99b2-e4a99ea78b11/resource/a719af6a-12b6-4a05-ab73-8793f1b62c43/download/wappen.rdf",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Kommunale Wappenrolle",
+        "id": "642bd5b6-6372-4104-8f2b-a7fb690228b9",
+        "name": "Kommunale Wappenrolle",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Wappen",
+        "id": "6f9f60b2-6346-475a-bb45-6e7e795762ae",
+        "name": "Wappen",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "5e0652d8-7f59-42fc-92ab-a6358f800e1d",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-by/4.0",
+    "license_title": "Creative Commons Namensnennung \u2013 4.0 International (CC BY 4.0)",
+    "license_url": "http://creativecommons.org/licenses/by/4.0/",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2022-12-11T06:36:03.531664",
+    "metadata_modified": "2023-12-21T06:19:48.598664",
+    "name": "fahrplandaten",
+    "notes": "Fahrplandaten im [General Transit Feed Specification (GTFS)](https://de.wikipedia.org/wiki/General_Transit_Feed_Specification) Format\r\n\r\nDie statischen Fahrplandaten stammen von den Bus- und Bahnunternehmen in Schleswig-Holstein. Der Verkehrsverbund Schleswig-Holstein vereinigt die Fahrplandaten in einem harmonisierten Datensatz. Der Datensatz f\u00fcr Schleswig-Holstein wird geografisch erg\u00e4nzt durch den Datensatz des im S\u00fcden Schleswig-Holsteins angrenzenden Hamburger Verkehrsverbund. Grund f\u00fcr die Aufteilung ist die Nutzung der beiden Datens\u00e4tze in Auskunftssystemen. Alternativ steht der bundesweite Datensatz unter [opendata-oepnv.de](https://opendata-oepnv.de) bereit. \r\n\r\nDie verwendeten Haltepunkte sind ggf. im gesamten Datensatz nur mit einem Punkt f\u00fcr beide Fahrtrichtungen dargestellt. Rudiment\u00e4re Tarifinformationen, die Tarifzonennummern, h\u00e4ngen an den Haltepunkten. \r\n\r\nNicht enthalten sind Echtzeitinformationen, die in einem separaten Feed folgen und fahrplanlose Verkehre, wie bspw. Sharing-Dienste.",
+    "num_resources": 1,
+    "num_tags": 4,
+    "organization": {
+      "id": "822973d3-af00-4240-80dd-77d7a7e20801",
+      "name": "nah-sh",
+      "title": "nah.sh",
+      "type": "organization",
+      "description": "Die Nahverkehrsverbund Schleswig-Holstein GmbH (NAH.SH GmbH) mit Sitz in Kiel bietet den Fahrg\u00e4sten im echten Norden Nahverkehr aus einer Hand: Im Auftrag des Landes Schleswig-Holstein organisiert sie als Aufgabentr\u00e4ger den Schienenpersonennahverkehr (SPNV). Im Verkehrsverbund wirken Kreise, kreisfreie St\u00e4dte und das Land Schleswig-Holstein gemeinsam, um einen modernen und wirtschaftlichen Nahverkehr auf Schiene und Stra\u00dfe zu entwickeln. \r\n\r\nNAH.SH stellt eine kartenbasierte Abfrage zum Bahnverkehr zur Verf\u00fcgung: https://www.nah.sh/de/karten/interaktive-karten-fuer-schleswig-holstein/",
+      "image_url": "https://opendata.zitsh.de/images/nahsh-logo.svg",
+      "created": "2022-03-10T07:26:09.650013",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "822973d3-af00-4240-80dd-77d7a7e20801",
+    "private": false,
+    "state": "active",
+    "title": "Fahrplandaten",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "tran"
+      },
+      {
+        "key": "issued",
+        "value": "2022-12-11T00:00:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "nah.sh"
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-21T07:20:07.723105"
+      },
+      {
+        "key": "reference",
+        "value": "https://musterdatenkatalog.de/def/musterdatensatz/oepnv/sollfahrdaten"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.869, 53.36], [7.869, 55.0583], [11.3126, 55.0583], [11.3126, 53.36], [7.869, 53.36]]]}"
+      },
+      {
+        "key": "spatial_text",
+        "value": "Bundesland Schleswig-Holstein"
+      },
+      {
+        "key": "spatial_uri",
+        "value": "http://dcat-ap.de/def/politicalGeocoding/stateKey/01"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-12-20T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-12-20T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Verkehr",
+        "id": "tran",
+        "image_display_url": "",
+        "name": "tran",
+        "title": "Verkehr"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": "2023-05-08T09:05:12.497257",
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/5e0652d8-7f59-42fc-92ab-a6358f800e1d/resource/edcfffbc-f36b-49d1-befd-0642099f77b9/download/fahrplandaten.zip",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/edc/fff/bc-f36b-49d1-befd-0642099f77b9",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/5e0652d8-7f59-42fc-92ab-a6358f800e1d/resource/edcfffbc-f36b-49d1-befd-0642099f77b9/download/fahrplandaten.zip",
+          "size": 30481988,
+          "mimetype": "application/zip",
+          "hash": "132c51973c8b2ba80b02c237509b662004e7833b",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:58:04.287436",
+          "failure_count": 0,
+          "created": "2022-12-11T07:38:54.891198",
+          "updated": "2023-12-21T07:58:04.287436",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2022-12-11T06:38:53.274470",
+        "description": "",
+        "format": "ZIP",
+        "hash": "96f85336f9340c7f707d84ef519f469c",
+        "hash_algorithm": "http://dcat-ap.de/def/hashAlgorithms/md/5",
+        "id": "edcfffbc-f36b-49d1-befd-0642099f77b9",
+        "last_modified": "2022-12-11T06:38:53.168288",
+        "metadata_modified": "2023-12-21T06:19:48.601826",
+        "mimetype": "application/zip",
+        "mimetype_inner": null,
+        "name": "GTFS",
+        "package_id": "5e0652d8-7f59-42fc-92ab-a6358f800e1d",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:58:04.287436",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"GTFS\" which receives openness score: None. URL extension \"zip\" relates to format \"ZIP\" and receives score: 1.",
+          "format": "ZIP",
+          "created": "2022-12-11T07:38:55.807803",
+          "updated": "2023-12-21T07:58:04.875455"
+        },
+        "resource_type": null,
+        "size": 30481988,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/5e0652d8-7f59-42fc-92ab-a6358f800e1d/resource/edcfffbc-f36b-49d1-befd-0642099f77b9/download/fahrplandaten.zip",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Busfahrplan",
+        "id": "4a762bf6-c83c-48b6-89db-990f01d4d910",
+        "name": "Busfahrplan",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Fahrplan",
+        "id": "6083de7e-a248-4edb-be1c-3cda3f5d4e55",
+        "name": "Fahrplan",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Sollfahrdaten",
+        "id": "c960f578-3344-42e9-ac81-e0fbd8312eb8",
+        "name": "Sollfahrdaten",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "\u00d6PNV",
+        "id": "879a502d-c9ad-48d5-a2f9-a32d442e1816",
+        "name": "\u00d6PNV",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "2c8d2ef1-b271-4211-88fe-e54ac5c47371",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-20T06:19:46.021429",
+    "metadata_modified": "2023-12-21T06:19:44.809801",
+    "name": "kfu-messwerte-2023-12-20",
+    "notes": "st\u00fcndliche Messwerte der Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein, Gamma-Ortsdosisleistung und meteorologische Ausbreitungsparameter.\r\n\r\nDie Datei ist in drei Bereiche untergliedert:\r\n\r\n1. st\u00fcndliche Messwerte mit einer Spalte pro Messstation/Messwert\r\n2. Liste der Messstationen\r\n3. Kommentare zu einzelnen Datenpunkten\r\n\r\nMehr Informationen zur Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein erfahren Sie auf der Webseite https://www.schleswig-holstein.de/DE/fachinhalte/R/reaktorsicherheit/Kernkraftwerksfernueberwachung.\r\n",
+    "num_resources": 1,
+    "num_tags": 3,
+    "organization": {
+      "id": "d791be73-4877-47ec-ad0f-5d313d159f75",
+      "name": "mekun",
+      "title": "Ministerium f\u00fcr Energiewende, Klimaschutz, Umwelt und Natur",
+      "type": "organization",
+      "description": "",
+      "image_url": "2023-08-01-102821.268412mekun.png",
+      "created": "2022-08-18T07:58:44.906829",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "d791be73-4877-47ec-ad0f-5d313d159f75",
+    "private": false,
+    "state": "active",
+    "title": "KF\u00dc-Messwerte",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "envi,tech"
+      },
+      {
+        "key": "issued",
+        "value": "2023-12-20T07:20:03.788479"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-20T07:20:03.788479"
+      },
+      {
+        "key": "reference",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[9.027100, 54.089246], [10.610718, 54.089246], [10.610718, 53.329292], [9.027100, 53.329292], [9.027100, 54.089246]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-12-19T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-12-12T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      },
+      {
+        "description": "",
+        "display_name": "Wissenschaft und Technologie",
+        "id": "tech",
+        "image_display_url": "",
+        "name": "tech",
+        "title": "Wissenschaft und Technologie"
+      }
+    ],
+    "relationships_as_subject": [
+      {
+        "__extras": {
+          "subject_package_id": "2c8d2ef1-b271-4211-88fe-e54ac5c47371",
+          "object_package_id": "d5d010b0-dce0-4a19-8f55-445612dd389c"
+        },
+        "comment": "",
+        "id": "32728c5b-a798-4d3c-84b3-23d5cc91d37d",
+        "type": "child_of"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/2c8d2ef1-b271-4211-88fe-e54ac5c47371/resource/5c0463f5-30a6-40ea-bd15-4f50fe388539/download/opendata-kfue-odl_7t.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/5c0/463/f5-30a6-40ea-bd15-4f50fe388539",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/2c8d2ef1-b271-4211-88fe-e54ac5c47371/resource/5c0463f5-30a6-40ea-bd15-4f50fe388539/download/opendata-kfue-odl_7t.csv",
+          "size": 156589,
+          "mimetype": "text/csv",
+          "hash": "6c26ba884714baf41a415d6bd75e0bc5533ab440",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:57:56.186625",
+          "failure_count": 0,
+          "created": "2023-12-20T07:19:48.561212",
+          "updated": "2023-12-21T07:57:56.186625",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-20T06:19:46.976058",
+        "description": null,
+        "format": "CSV",
+        "hash": "ff781af9c4264d42f31d3a3091d30d82",
+        "id": "5c0463f5-30a6-40ea-bd15-4f50fe388539",
+        "last_modified": "2023-12-20T06:19:46.959899",
+        "metadata_modified": "2023-12-21T06:19:44.816452",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "OpenData-KFUE-ODL_7T.csv",
+        "package_id": "2c8d2ef1-b271-4211-88fe-e54ac5c47371",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:57:56.186625",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-12-20T07:19:49.110250",
+          "updated": "2023-12-21T07:57:56.984136"
+        },
+        "resource_type": null,
+        "size": 156589,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/2c8d2ef1-b271-4211-88fe-e54ac5c47371/resource/5c0463f5-30a6-40ea-bd15-4f50fe388539/download/opendata-kfue-odl_7t.csv",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Gamma-Ortsdosisleistung",
+        "id": "bfa6f4ea-7ec4-412b-b1b6-7c42b357d003",
+        "name": "Gamma-Ortsdosisleistung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "KF\u00dc",
+        "id": "b4f65742-6fc0-4bf4-878d-c748f5458777",
+        "name": "KF\u00dc",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Strahlung",
+        "id": "0ad2c0fd-5a66-48e8-ae79-59a25a5eb977",
+        "name": "Strahlung",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "7df583a3-350e-47ef-8738-3bbb68bdb954",
+    "id": "ec6dddab-d420-4ed0-a448-29eb56e9303d",
+    "isopen": true,
+    "language": "http://publications.europa.eu/resource/authority/language/DEU",
+    "license_id": "http://dcat-ap.de/def/licenses/cc-zero",
+    "license_title": "Creative Commons CC Zero License (cc-zero)",
+    "license_url": "http://www.opendefinition.org/licenses/cc-zero",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-12-21T06:19:43.099882",
+    "metadata_modified": "2023-12-21T06:19:44.224680",
+    "name": "kfu-messwerte-2023-12-21",
+    "notes": "st\u00fcndliche Messwerte der Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein, Gamma-Ortsdosisleistung und meteorologische Ausbreitungsparameter.\r\n\r\nDie Datei ist in drei Bereiche untergliedert:\r\n\r\n1. st\u00fcndliche Messwerte mit einer Spalte pro Messstation/Messwert\r\n2. Liste der Messstationen\r\n3. Kommentare zu einzelnen Datenpunkten\r\n\r\nMehr Informationen zur Kernkraftwerksfern\u00fcberwachung Schleswig-Holstein erfahren Sie auf der Webseite https://www.schleswig-holstein.de/DE/fachinhalte/R/reaktorsicherheit/Kernkraftwerksfernueberwachung.\r\n",
+    "num_resources": 1,
+    "num_tags": 3,
+    "organization": {
+      "id": "d791be73-4877-47ec-ad0f-5d313d159f75",
+      "name": "mekun",
+      "title": "Ministerium f\u00fcr Energiewende, Klimaschutz, Umwelt und Natur",
+      "type": "organization",
+      "description": "",
+      "image_url": "2023-08-01-102821.268412mekun.png",
+      "created": "2022-08-18T07:58:44.906829",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "d791be73-4877-47ec-ad0f-5d313d159f75",
+    "private": false,
+    "state": "active",
+    "title": "KF\u00dc-Messwerte",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "groups",
+        "value": "envi,tech"
+      },
+      {
+        "key": "issued",
+        "value": "2023-12-21T07:20:03.309105"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": ""
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-21T07:20:03.309105"
+      },
+      {
+        "key": "reference",
+        "value": ""
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[9.027100, 54.089246], [10.610718, 54.089246], [10.610718, 53.329292], [9.027100, 53.329292], [9.027100, 54.089246]]]}"
+      },
+      {
+        "key": "temporal_end",
+        "value": "2023-12-20T00:00:00"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2023-12-13T00:00:00"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      },
+      {
+        "description": "",
+        "display_name": "Wissenschaft und Technologie",
+        "id": "tech",
+        "image_display_url": "",
+        "name": "tech",
+        "title": "Wissenschaft und Technologie"
+      }
+    ],
+    "relationships_as_subject": [
+      {
+        "__extras": {
+          "subject_package_id": "ec6dddab-d420-4ed0-a448-29eb56e9303d",
+          "object_package_id": "d5d010b0-dce0-4a19-8f55-445612dd389c"
+        },
+        "comment": "",
+        "id": "1efabcd8-9f6e-4dfa-a291-14ebddee8442",
+        "type": "child_of"
+      }
+    ],
+    "resources": [
+      {
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://opendata.schleswig-holstein.de/dataset/ec6dddab-d420-4ed0-a448-29eb56e9303d/resource/41d36b35-1a22-4bc2-a9af-22e5cd6b14ff/download/opendata-kfue-odl_7t.csv",
+          "cache_filepath": "/var/lib/ckan/default/ckan_storage/resources/41d/36b/35-1a22-4bc2-a9af-22e5cd6b14ff",
+          "cache_url": "https://opendata.schleswig-holstein.de/dataset/ec6dddab-d420-4ed0-a448-29eb56e9303d/resource/41d36b35-1a22-4bc2-a9af-22e5cd6b14ff/download/opendata-kfue-odl_7t.csv",
+          "size": 156849,
+          "mimetype": "text/csv",
+          "hash": "352a2b65da33776c2a2369f319855186d7504666",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:57:53.661510",
+          "failure_count": 0,
+          "created": "2023-12-21T07:57:45.688433",
+          "updated": "2023-12-21T07:57:53.661510",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-12-21T06:19:44.241389",
+        "description": null,
+        "format": "CSV",
+        "hash": "0c8b2439ea0281b4c8eed279bb8fe672",
+        "id": "41d36b35-1a22-4bc2-a9af-22e5cd6b14ff",
+        "last_modified": "2023-12-21T06:19:44.209196",
+        "metadata_modified": "2023-12-21T06:19:44.227692",
+        "mimetype": "text/csv",
+        "mimetype_inner": null,
+        "name": "OpenData-KFUE-ODL_7T.csv",
+        "package_id": "ec6dddab-d420-4ed0-a448-29eb56e9303d",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:57:53.661510",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"CSV\" which receives openness score: 3.",
+          "format": "CSV",
+          "created": "2023-12-21T07:57:46.197710",
+          "updated": "2023-12-21T07:57:54.185716"
+        },
+        "resource_type": null,
+        "size": 156849,
+        "state": "active",
+        "url": "https://opendata.schleswig-holstein.de/dataset/ec6dddab-d420-4ed0-a448-29eb56e9303d/resource/41d36b35-1a22-4bc2-a9af-22e5cd6b14ff/download/opendata-kfue-odl_7t.csv",
+        "url_type": "upload"
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "Gamma-Ortsdosisleistung",
+        "id": "bfa6f4ea-7ec4-412b-b1b6-7c42b357d003",
+        "name": "Gamma-Ortsdosisleistung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "KF\u00dc",
+        "id": "b4f65742-6fc0-4bf4-878d-c748f5458777",
+        "name": "KF\u00dc",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Strahlung",
+        "id": "0ad2c0fd-5a66-48e8-ae79-59a25a5eb977",
+        "name": "Strahlung",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_object": []
+  },
+  {
+    "author": null,
+    "author_email": null,
+    "creator_user_id": "365772f8-13ae-4838-8459-d5e9ce7269f2",
+    "id": "52a15edf-4fca-4884-a2f0-0bce932a1c8b",
+    "isopen": true,
+    "language": "[\"http://publications.europa.eu/resource/authority/language/DEU\"]",
+    "license_id": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+    "license_title": "Datenlizenz Deutschland Namensnennung 2.0",
+    "license_url": "https://www.govdata.de/dl-de/by-2-0",
+    "maintainer": null,
+    "maintainer_email": null,
+    "metadata_created": "2023-08-09T21:29:56.239799",
+    "metadata_modified": "2023-12-21T05:49:32.612773",
+    "name": "chrom-hintergrundwerte-stofflich-gering-beeinflusster-boden-schleswig-holsteins1",
+    "notes": "Der Datensatz \"Chrom - Hintergrundwerte stofflich gering beeinflusster B\u00f6den Schleswig-Holsteins\" enth\u00e4lt f\u00fcr Chrom die 90er-Perzentilwerte von 13 Auswerteklassen als landesweite Kartendarstellung. Die Auswerteklassen werden aus Informationen zu den Nutzungen Acker, Gr\u00fcnland und Wald sowie zum Boden (Bodenart/Torfe, Bodentypen) gebildet. In der Karte werden regional noch als typisch einzusch\u00e4tzende Arsengehalte als Hintergrundwerte dargestellt. Als Klassengrenzen f\u00fcr die farbliche Abstufung werden die 50er-, 75er-, 90er- und 95-Perzentilwerte des Gesamtdatenbestandes ohne Waldauflagen verwendet. So lassen sich gegen\u00fcber einer f\u00fcr ganz Schleswig-Holstein \u00fcber alle Nutzungen g\u00fcltigen Verteilung gebietsbezogene Einheiten in ihrer Tendenz gut darstellen.",
+    "num_resources": 5,
+    "num_tags": 13,
+    "organization": {
+      "id": "02619150-8e16-46a5-b2b9-de73ecfc617d",
+      "name": "lfu",
+      "title": "Landesamt f\u00fcr Umwelt",
+      "type": "organization",
+      "description": "Bitte auch die Datens\u00e4tze unter dem Vorg\u00e4ngerherausgeber [Landesamt f\u00fcr Landwirtschaft, Umwelt und l\u00e4ndliche R\u00e4ume (LLUR)](https://opendata.schleswig-holstein.de/organization/llur) ber\u00fccksichtigen.",
+      "image_url": "https://opendata.zitsh.de/images/Dachmarke.png",
+      "created": "2023-01-05T09:56:52.636839",
+      "is_organization": true,
+      "approval_status": "approved",
+      "state": "active"
+    },
+    "owner_org": "02619150-8e16-46a5-b2b9-de73ecfc617d",
+    "private": false,
+    "state": "active",
+    "title": "Chrom - Hintergrundwerte stofflich gering beeinflusster B\u00f6den Schleswig-Holsteins",
+    "type": "dataset",
+    "url": null,
+    "version": null,
+    "extras": [
+      {
+        "key": "access_rights",
+        "value": "http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/noLimitations"
+      },
+      {
+        "key": "alternate_identifier",
+        "value": "[\"39bd5e67-f445-461d-8bcf-81777294107a\"]"
+      },
+      {
+        "key": "conforms_to",
+        "value": "[\"http://www.opengis.net/def/crs/EPSG/0/4647\"]"
+      },
+      {
+        "key": "contact_email",
+        "value": "joern.froehlich@lfu.landsh.de"
+      },
+      {
+        "key": "contact_name",
+        "value": "Landesamt f\u00fcr Umwelt des Landes Schleswig-Holstein (LfU)"
+      },
+      {
+        "key": "contributorID",
+        "value": "[\"https://gdi-sh.de\"]"
+      },
+      {
+        "key": "dcat_type",
+        "value": "http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"
+      },
+      {
+        "key": "documentation",
+        "value": "[\"https://www.schleswig-holstein.de/DE/Fachinhalte/B/boden/Downloads/Hintergrundwerte.pdf?__blob=publicationFile&v=2\", \"https://umweltgeodienste.schleswig-holstein.de/WFS_UWAT?Request=GetCapabilities&SERVICE=WFS\", \"https://www.schleswig-holstein.de/DE/Fachinhalte/B/boden/bodenbelastungskataster.html\", \"https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/dok/Erlaeuterungen-Statistik.pdf\"]"
+      },
+      {
+        "key": "frequency",
+        "value": "http://publications.europa.eu/resource/authority/frequency/UNKNOWN"
+      },
+      {
+        "key": "guid",
+        "value": "http://registry.gdi-de.org/id/de.sh/39bd5e67-f445-461d-8bcf-81777294107a"
+      },
+      {
+        "key": "identifier",
+        "value": "39bd5e67-f445-461d-8bcf-81777294107a"
+      },
+      {
+        "key": "issued",
+        "value": "2011-12-01T00:00:00+01:00"
+      },
+      {
+        "key": "licenseAttributionByText",
+        "value": "LfU-SH"
+      },
+      {
+        "key": "maintainer_city",
+        "value": "Flintbek"
+      },
+      {
+        "key": "maintainer_country",
+        "value": "DEU"
+      },
+      {
+        "key": "maintainer_street",
+        "value": "Hamburger Chaussee 25"
+      },
+      {
+        "key": "maintainer_tel",
+        "value": "+49-4347-704-550"
+      },
+      {
+        "key": "maintainer_url",
+        "value": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LFU/organisation/abteilungen/abteilung6_geologie.html"
+      },
+      {
+        "key": "maintainer_zip",
+        "value": "24220"
+      },
+      {
+        "key": "metadata_harvested_portal",
+        "value": "sh-mis"
+      },
+      {
+        "key": "modified",
+        "value": "2023-12-20"
+      },
+      {
+        "key": "publisher_email",
+        "value": "mailto:joern.froehlich@lfu.landsh.de"
+      },
+      {
+        "key": "publisher_name",
+        "value": "Landesamt f\u00fcr Umwelt des Landes Schleswig-Holstein (LfU)"
+      },
+      {
+        "key": "publisher_url",
+        "value": "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/LFU/organisation/abteilungen/abteilung6_geologie.html"
+      },
+      {
+        "key": "spatial",
+        "value": "{\"type\": \"Polygon\", \"coordinates\": [[[7.87, 55.06], [11.32, 55.06], [11.32, 53.35], [7.87, 53.35], [7.87, 55.06]]]}"
+      },
+      {
+        "key": "temporal_start",
+        "value": "2011-12-01T00:00:00+01:00"
+      },
+      {
+        "key": "theme",
+        "value": "[\"http://publications.europa.eu/resource/authority/data-theme/TECH\", \"http://publications.europa.eu/resource/authority/data-theme/REGI\", \"http://publications.europa.eu/resource/authority/data-theme/ENVI\"]"
+      },
+      {
+        "key": "uri",
+        "value": "http://registry.gdi-de.org/id/de.sh/39bd5e67-f445-461d-8bcf-81777294107a"
+      },
+      {
+        "key": "harvest_object_id",
+        "value": "6730ee39-c230-4509-8ad2-2846e807deb8"
+      },
+      {
+        "key": "harvest_source_id",
+        "value": "38869aff-2079-4790-bd0e-70714637ab7c"
+      },
+      {
+        "key": "harvest_source_title",
+        "value": "SH-MIS"
+      }
+    ],
+    "groups": [
+      {
+        "description": "",
+        "display_name": "Regionen und St\u00e4dte",
+        "id": "regi",
+        "image_display_url": "",
+        "name": "regi",
+        "title": "Regionen und St\u00e4dte"
+      },
+      {
+        "description": "",
+        "display_name": "Umwelt",
+        "id": "envi",
+        "image_display_url": "",
+        "name": "envi",
+        "title": "Umwelt"
+      },
+      {
+        "description": "",
+        "display_name": "Wissenschaft und Technologie",
+        "id": "tech",
+        "image_display_url": "",
+        "name": "tech",
+        "title": "Wissenschaft und Technologie"
+      }
+    ],
+    "resources": [
+      {
+        "access_url": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/Hintergrundwerte.zip",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://umweltanwendungen.schleswig-holstein.de/Geodaten_Download/boden/zustand/Hintergrundwerte.zip",
+          "cache_filepath": "/var/lib/ckan/default/archive/39/3924fc95-07ae-4813-bb42-2e658d42f3f2/Hintergrundwerte.zip",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/39/3924fc95-07ae-4813-bb42-2e658d42f3f2/Hintergrundwerte.zip",
+          "size": 15107111,
+          "mimetype": "application/zip",
+          "hash": "7839bbfb9814f5987a12de6560fe0b4eb5917b1d",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:54:49.682209",
+          "failure_count": 0,
+          "created": "2023-08-09T23:31:37.910416",
+          "updated": "2023-12-21T07:54:49.682209",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-08-09T21:29:56.353335",
+        "description": null,
+        "distribution_ref": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/Hintergrundwerte.zip",
+        "download_url": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/Hintergrundwerte.zip",
+        "format": "SHP",
+        "hash": "",
+        "id": "3924fc95-07ae-4813-bb42-2e658d42f3f2",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+        "licenseAttributionByText": "LfU-SH",
+        "metadata_modified": "2023-10-20T02:53:05.790558",
+        "mimetype": "application/zip",
+        "mimetype_inner": null,
+        "name": "Kurzinformationen zur statistischen Auswertung und zur Darstellung",
+        "package_id": "52a15edf-4fca-4884-a2f0-0bce932a1c8b",
+        "position": 0,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:54:49.682209",
+          "openness_score": 2,
+          "openness_score_reason": "Content of file appeared to be format \"SHP\" which receives openness score: 2.",
+          "format": "SHP",
+          "created": "2023-08-09T23:31:39.081357",
+          "updated": "2023-12-21T07:54:54.844626"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/Hintergrundwerte.zip",
+        "url": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/Hintergrundwerte.zip",
+        "url_type": null
+      },
+      {
+        "access_url": "https://umweltgeodienste.schleswig-holstein.de/WFS_UWAT?",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/9d/9d8f4f99-31ae-400b-ac8c-98bf9082d806/WFS_UWAT",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/9d/9d8f4f99-31ae-400b-ac8c-98bf9082d806/WFS_UWAT",
+          "size": 210885,
+          "mimetype": "text/xml",
+          "hash": "eed14cb866cbfa4be36ad613994a9821399ff632",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:54:51.180520",
+          "failure_count": 0,
+          "created": "2023-10-28T07:05:43.474957",
+          "updated": "2023-12-21T07:54:51.180520",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-10-28T04:06:13.920707",
+        "description": "Downloaddienste (WFS) zu den verschiedenen Fachthemen im Umweltportal SH",
+        "distribution_ref": "https://umweltgeodienste.schleswig-holstein.de/WFS_UWAT?",
+        "download_url": "https://umweltgeodienste.schleswig-holstein.de/WFS_UWAT?",
+        "format": "WFS_SRVC",
+        "hash": "",
+        "id": "9d8f4f99-31ae-400b-ac8c-98bf9082d806",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+        "licenseAttributionByText": "LfU-SH",
+        "metadata_modified": "2023-12-21T05:49:32.618274",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "modified": "2023-12-20",
+        "name": "WFS Fachthemen Umwelt",
+        "package_id": "52a15edf-4fca-4884-a2f0-0bce932a1c8b",
+        "position": 1,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:54:51.180520",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"WFS\" which receives openness score: 3.",
+          "format": "WFS",
+          "created": "2023-10-28T07:05:48.475107",
+          "updated": "2023-12-21T07:54:54.853550"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://umweltgeodienste.schleswig-holstein.de/WFS_UWAT?",
+        "url": "https://umweltgeodienste.schleswig-holstein.de/WFS_UWAT?",
+        "url_type": null
+      },
+      {
+        "access_url": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/7f/7f38fdf7-8eb2-4ca9-8484-c1a2a5ac4b5f/WMS_UWAT_BOD",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/7f/7f38fdf7-8eb2-4ca9-8484-c1a2a5ac4b5f/WMS_UWAT_BOD",
+          "size": 152090,
+          "mimetype": "application/vnd.ogc.wms_xml",
+          "hash": "608da04adc29e7a0184e0c4c7f3a83b7b53627d9",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:54:52.557050",
+          "failure_count": 0,
+          "created": "2023-10-20T07:13:42.737446",
+          "updated": "2023-12-21T07:54:52.557050",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-10-20T02:53:05.814909",
+        "description": "Dieser Dienst enth\u00e4lt \u00f6ffentlich verf\u00fcgbare Bodendaten der Abteilung 6 - Geologie und Boden des LfU-SH. Informationen zu den einzelnen Karten k\u00f6nnen jeweils den zugeh\u00f6rigen Metadaten zu den einzelnen Datens\u00e4tzen entnommen werden. Der Dienst wird regelm\u00e4\u00dfig um neu publizierte Daten erweitert.",
+        "distribution_ref": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?",
+        "download_url": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?",
+        "format": "WMS_SRVC",
+        "hash": "",
+        "id": "7f38fdf7-8eb2-4ca9-8484-c1a2a5ac4b5f",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+        "licenseAttributionByText": "LfU-SH",
+        "metadata_modified": "2023-12-02T06:21:14.141223",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "modified": "2023-12-01",
+        "name": "WMS Fachthema Boden",
+        "package_id": "52a15edf-4fca-4884-a2f0-0bce932a1c8b",
+        "position": 2,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:54:52.557050",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"WMS\" which receives openness score: 3.",
+          "format": "WMS",
+          "created": "2023-10-20T07:13:45.367408",
+          "updated": "2023-12-21T07:54:54.830566"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?",
+        "url": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?",
+        "url_type": null
+      },
+      {
+        "access_url": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/dok/Langlegende-Chrom.pdf",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": "https://umweltanwendungen.schleswig-holstein.de/Geodaten_Download/boden/zustand/dok/Langlegende-Chrom.pdf",
+          "cache_filepath": "/var/lib/ckan/default/archive/aa/aa799773-7278-4612-b0f0-7644e3e6937f/Langlegende-Chrom.pdf",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/aa/aa799773-7278-4612-b0f0-7644e3e6937f/Langlegende-Chrom.pdf",
+          "size": 59284,
+          "mimetype": "application/pdf",
+          "hash": "8554a20e78639d87a8e2a06f1926db53175ad0c3",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:54:53.018262",
+          "failure_count": 0,
+          "created": "2023-08-09T23:31:38.464352",
+          "updated": "2023-12-21T07:54:53.018262",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-08-09T21:29:56.353343",
+        "description": null,
+        "distribution_ref": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/dok/Langlegende-Chrom.pdf",
+        "download_url": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/dok/Langlegende-Chrom.pdf",
+        "format": "PDF",
+        "hash": "",
+        "id": "aa799773-7278-4612-b0f0-7644e3e6937f",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+        "licenseAttributionByText": "LfU-SH",
+        "metadata_modified": "2023-10-20T02:53:05.790797",
+        "mimetype": "application/pdf",
+        "mimetype_inner": null,
+        "name": "Kartenlegende (Langform)",
+        "package_id": "52a15edf-4fca-4884-a2f0-0bce932a1c8b",
+        "position": 3,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:54:53.018262",
+          "openness_score": 1,
+          "openness_score_reason": "Content of file appeared to be format \"PDF\" which receives openness score: 1.",
+          "format": "PDF",
+          "created": "2023-08-09T23:31:39.094933",
+          "updated": "2023-12-21T07:54:54.848748"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/dok/Langlegende-Chrom.pdf",
+        "url": "https://umweltanwendungen.schleswig-holstein.de/data/meta/boden/zustand/dok/Langlegende-Chrom.pdf",
+        "url_type": null
+      },
+      {
+        "access_url": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?SERVICE=WMS&Request=GetCapabilities",
+        "archiver": {
+          "resource_timestamp": null,
+          "status_id": 0,
+          "is_broken": false,
+          "reason": "",
+          "url_redirected_to": null,
+          "cache_filepath": "/var/lib/ckan/default/archive/5e/5ebe3ab1-1a98-4dff-b672-c97469761547/WMS_UWAT_BOD",
+          "cache_url": "https://opendata.schleswig-holstein.de/resource_cache/5e/5ebe3ab1-1a98-4dff-b672-c97469761547/WMS_UWAT_BOD",
+          "size": 170090,
+          "mimetype": "text/xml",
+          "hash": "2e1d095a1d6ab727017a8d399f9ce0f993e77022",
+          "etag": null,
+          "last_modified": null,
+          "first_failure": null,
+          "last_success": "2023-12-21T07:54:54.341092",
+          "failure_count": 0,
+          "created": "2023-10-20T07:13:44.682925",
+          "updated": "2023-12-21T07:54:54.341092",
+          "status": "Archived successfully",
+          "is_broken_printable": "Downloaded OK"
+        },
+        "cache_last_updated": null,
+        "cache_url": null,
+        "created": "2023-10-20T02:53:05.814913",
+        "description": null,
+        "distribution_ref": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?SERVICE=WMS&Request=GetCapabilities",
+        "download_url": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?SERVICE=WMS&Request=GetCapabilities",
+        "format": "WMS_SRVC",
+        "hash": "",
+        "id": "5ebe3ab1-1a98-4dff-b672-c97469761547",
+        "last_modified": null,
+        "license": "http://dcat-ap.de/def/licenses/dl-by-de/2.0",
+        "licenseAttributionByText": "LfU-SH",
+        "metadata_modified": "2023-11-01T04:57:34.143407",
+        "mimetype": null,
+        "mimetype_inner": null,
+        "modified": "2023-10-31",
+        "name": "Dienst \"WMS Fachthema Boden\" (GetCapabilities)",
+        "package_id": "52a15edf-4fca-4884-a2f0-0bce932a1c8b",
+        "position": 4,
+        "qa": {
+          "resource_timestamp": null,
+          "archival_timestamp": "2023-12-21T07:54:54.341092",
+          "openness_score": 3,
+          "openness_score_reason": "Content of file appeared to be format \"WMS\" which receives openness score: 3.",
+          "format": "WMS",
+          "created": "2023-10-20T07:13:45.381095",
+          "updated": "2023-12-21T07:54:54.838502"
+        },
+        "resource_type": null,
+        "size": null,
+        "state": "active",
+        "uri": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?SERVICE=WMS&Request=GetCapabilities",
+        "url": "https://umweltgeodienste.schleswig-holstein.de/WMS_UWAT_BOD?SERVICE=WMS&Request=GetCapabilities",
+        "url_type": null
+      }
+    ],
+    "tags": [
+      {
+        "display_name": "BBKSH",
+        "id": "fe6d0962-e846-4886-9020-9a9ce5e3f637",
+        "name": "BBKSH",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Boden",
+        "id": "2d0e75ca-ebff-40ff-bd61-f79bf93e386a",
+        "name": "Boden",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Bodenbelastungskataster",
+        "id": "a43e7435-bfe4-4b1b-a437-6a33247d24a1",
+        "name": "Bodenbelastungskataster",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Bodenzustand",
+        "id": "8a6b423a-8e15-417f-9c32-c0ac53ed52fe",
+        "name": "Bodenzustand",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Bodenzustandserfassung",
+        "id": "61103530-5ad3-4d18-b703-87073a8545ea",
+        "name": "Bodenzustandserfassung",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Chrom",
+        "id": "a7728d49-f1a0-4e47-b5a3-fe2e6be05a9e",
+        "name": "Chrom",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "ENVI",
+        "id": "3a840c45-77c5-4307-9fd4-d937aee819d7",
+        "name": "ENVI",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Geogener Hintergrund",
+        "id": "9bc4bad3-5230-4def-be01-e128dfbe4e1f",
+        "name": "Geogener Hintergrund",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Grundgehalt [Hintergrundwert]",
+        "id": "f410d02f-9be7-4876-94be-ccc423d480a0",
+        "name": "Grundgehalt [Hintergrundwert]",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Hintergrundwerte",
+        "id": "197e97cc-3e84-4225-a190-a2ea181e317b",
+        "name": "Hintergrundwerte",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "Karten",
+        "id": "5979eb59-4156-4497-b521-a10854270c03",
+        "name": "Karten",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "gdi-sh",
+        "id": "1f8469d8-6d38-4a7d-a293-8cd5280a9ad3",
+        "name": "gdi-sh",
+        "state": "active",
+        "vocabulary_id": null
+      },
+      {
+        "display_name": "opendata",
+        "id": "2f8dcc54-f219-400e-bd83-c0603f275037",
+        "name": "opendata",
+        "state": "active",
+        "vocabulary_id": null
+      }
+    ],
+    "relationships_as_subject": [],
+    "relationships_as_object": []
+  }
+]
